@@ -1,0 +1,23 @@
+{
+  "name": "chat-box",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Manu Gill",
+  "private": true,
+  "license": "BSD",
+  "dependencies": {
+    "connect-mongodb-session": "^1.0.2",
+    "debug": "^2.2.0",
+    "emailjs": "^0.3.16",
+    "express": "3.4.8",
+    "express-session": "^1.11.2",
+    "mongodb": "^2.0.33",
+    "monk": "^1.0.1",
+    "passwordless": "^1.0.9",
+    "passwordless-mongostore": "^0.1.0",
+    "path": "^0.11.14",
+    "sendgrid": "^1.8.0",
+    "socket.io": "~1.3.2"
+  }
+}
