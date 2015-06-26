@@ -6,7 +6,7 @@ var config = {
 
 	'site': 'http://flooat.com:3000',
 
-	'sendgridApi': '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'
+	'sendgridApi': 'SENDGRID_HERE'
 };
 
 module.exports = config;
