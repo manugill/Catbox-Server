@@ -1,10 +1,3 @@
-/*
-	TODOS:
-	- CONSTRICT MESSAGES TO GROUPS
-
-	- User profile screen
-	- Nice to have: chat history and media messages
-*/
 var config = require('./core/config');
 var auth = require('./core/auth');
 var routes = require('./core/routes');
