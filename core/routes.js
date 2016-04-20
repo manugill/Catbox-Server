@@ -151,7 +151,7 @@ module.exports = function(app) {
 			}
 	});
 
-	// Nearby boxes
+	// Nearby boxes inside a polygon
 	app.get('/boxes_within', passwordless.restricted(),
 		function boxes(req, res) {
 			var db = monk(config.db);
@@ -192,7 +192,7 @@ module.exports = function(app) {
 			}
 	});
 
-	// Nearby boxes
+	// Add box
 	app.post('/add_box', passwordless.restricted(),
 		function addBox(req, res) {
 			var db;
